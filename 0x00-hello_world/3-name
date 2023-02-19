@@ -1,2 +1,2 @@
 #!/bin/bush
-gcc -w $CFILE -o {cisfun.*}.w 
+gcc $CFILE -o cisfun
