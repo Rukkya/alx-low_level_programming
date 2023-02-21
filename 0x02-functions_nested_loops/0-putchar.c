@@ -1,5 +1,9 @@
 #include"main.h"
-/** * main - prints the word _putchar * Return: return 0 */
+
+/** 
+ * main - prints the word _putchar 
+ * Return: return 0
+ */
 int main(void)
 {
 _putchar('_');
