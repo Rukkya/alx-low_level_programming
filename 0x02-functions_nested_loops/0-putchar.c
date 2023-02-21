@@ -4,11 +4,11 @@
  * Return: always 0.
  *
  */
-int main(void)
-{
 /*
  * to print _putchar on screen
 */
+int main(void)
+{
 _putchar('_');
 _putchar('p');
 _putchar('u');
