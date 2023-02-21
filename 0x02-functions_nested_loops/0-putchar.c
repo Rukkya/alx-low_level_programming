@@ -1,12 +1,5 @@
 #include"main.h"
-/*
- *@main - entry point
- *@Return: always 0.
- *
- */
-/*
- *@ to print _putchar on screen
-*/
+/** * main - prints the word _putchar * Return: return 0 */
 int main(void)
 {
 _putchar('_');
