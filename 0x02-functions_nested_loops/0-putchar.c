@@ -1,11 +1,11 @@
 #include"main.h"
 /*
- *main - entry point
- * Return: always 0.
+ *@main - entry point
+ *@Return: always 0.
  *
  */
 /*
- * to print _putchar on screen
+ *@ to print _putchar on screen
 */
 int main(void)
 {
