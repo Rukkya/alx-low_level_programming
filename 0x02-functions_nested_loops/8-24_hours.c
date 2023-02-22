@@ -2,7 +2,7 @@
 
 /**
  *jack_baeur- prints every minute of the day
- *@describtion: to print nums in form of day mins 
+ *@description: to print nums in form of day mins
 */
 
 void jack_bauer(void)
