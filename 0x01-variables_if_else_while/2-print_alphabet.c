@@ -1,15 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- *main - prints the alphabetic 
- *Description: print alphabet
- *Retun: Always (success)
- *
+ * main - printing alphabets
+ * Return: 0
  */
 int main(void)
 {
-char c;
-for (c = 'a' ; c< = 'z'; c++)
-putchar(c);
-putchar('\n');
-return (0);
+	char al;
+
+	al = 'a';
+	while (al <= 'z')
+	{
+		putchar(al);
+		al++;
+	}
+	putchar('\n');
+	return (0);
 }
