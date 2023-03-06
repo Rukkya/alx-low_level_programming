@@ -1,18 +1,26 @@
-#include<stdlib.h>
-#include<time.h>
-
+#include <stdio.h>
 /**
- * main - entry point 
- * Return: Always (success)
- *
+ * main - print alphabets in lower and upper case
+ * Return: 0
  */
 int main(void)
 {
-	char low;
-	for(low='a';low<='z';low++)
-		putchar(low);
-	for(low='A';low<='Z';low++)
-	putchar(low);
-	putchar('\n');
-return (0);
+	char all;
 
+	char AL;
+
+	all = 'a';
+	AL = 'A';
+	while (all <= 'z')
+	{
+		putchar(all);
+		all++;
+	}
+	while (AL <= 'Z')
+	{
+		putchar(AL);
+		AL++;
+	}
+	putchar('\n');
+	return (0);
+}
