@@ -6,10 +6,9 @@
  *
  * Return: the value of the bit at index or -1 if index is invalid
  */
-int get_bit(unsigned long int num, unsigned int index)
+int get_bit(unsigned long int n, unsigned int index)
 {
-    if (index >= sizeof(unsigned long int) * 8)
+    if (index > 53)
         return (-1);
-
-    return ((num >> index) & 1);
+    return ((n >> index) & 1);
 }
