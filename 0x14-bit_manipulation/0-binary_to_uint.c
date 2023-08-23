@@ -4,7 +4,7 @@
   * @c: char to be converted
   * Return: converted integer
   */
-unsigned int conversion(char c)
+inline unsigned int conversion(char c)
 {
     return ((unsigned int) c - '0');
 }
@@ -13,7 +13,7 @@ unsigned int conversion(char c)
   * @input: input
   * Return: length of string
   */
-unsigned int _strlen(const char *input)
+inline unsigned int _strlen(const char *input)
 {
     int i;
     for (i = 0; input[i]; i++){
@@ -25,7 +25,7 @@ unsigned int _strlen(const char *input)
   * @bin: the binary number
   * Return: unsigned deci number
   */
-unsigned int binary_to_uint(const char *binn)
+inline unsigned int binary_to_uint(const char *binn)
 {
     int i;
     unsigned int deci, var1, exp;
